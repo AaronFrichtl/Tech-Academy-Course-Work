@@ -1,0 +1,91 @@
+body {margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#PhotoChoices">PhotoChoices</a></li>
+  <li><a href="#About">ABOUT</a></li>
+  <li><a href="#Contact">CONTACT</a></li>
+  <li><a href="#Login">LOGIN</a></li>
+</ul>
+
+body {
+		background-color: #FFA500;
+		font-size: 18px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height: 1em;
+		font-weight: bold;
+}
+
+.header-title {
+	Padding-top: 50px;
+	margin-right: 15px;
+	text-align: center;
+	font-size: 50px;
+	color: #000000;
+	text-shadow: 2px 2px 25px #FF4500;
+	font-weight: ;
+}
+
+.logo {
+	position: center;
+	text-align: right;
+}
+
+.nav {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.login {
+	position: float-right;
+	right: 0px;
+	padding: 10px;
+}
+
+.photo {
+	position: float-right;
+}
+
+.links {
+	margin-right: 15px;
+	text-align: center;
+}
+.image {
+	margin-top: 40px;
+	text-align: center;
+}
